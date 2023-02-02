@@ -1,2 +1,2 @@
 # Food-ordering-machine-function
-It's a basic concept of how nowadays food ordering machine works!
+When I was introduced to "functions," it was fun to implement the idea of how a food ordering machine works, and it helped me understand how function works better.
