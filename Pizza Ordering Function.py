@@ -266,11 +266,11 @@ def sides():
 
 def bill():
     print("\n*** BILL ***")
+    print()
     global total, order
     if total == 0:
         print("\nTotal bill = 0 TK")
     for i in order:
-        print()
         print(i)
     if total >= 200:
         tax = total * .1
