@@ -268,7 +268,7 @@ def bill():
     print("\n*** BILL ***")
     global total, order
     if total == 0:
-        print("\nTotal bill is 0 TK")
+        print("\nTotal bill = 0 TK")
     for i in order:
         print()
         print(i)
@@ -276,9 +276,9 @@ def bill():
         tax = total * .1
         total = total + tax
         print(f'\nTAX(10%) = {tax}')
-        print("\nTotal bill is", total, 'TK')
+        print("\nTotal bill =", total, 'TK')
     elif total < 200 and total != 0:
-        print("\nTotal bill is", total, 'TK')
+        print("\nTotal bill =", total, 'TK')
     print()
     total = 0
     order = []
